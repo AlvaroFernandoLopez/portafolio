@@ -4,7 +4,7 @@ export const HomePage = () => {
   return (
 
 
-    <div className="row screem m-0 align-items-center flex-column-reverse flex-md-row animate__animated animate__fadeIn">
+    <div className="row screem m-0 align-items-center flex-column-reverse justify-content-center flex-md-row animate__animated animate__fadeIn">
       <div className="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start">
         <h1 className="text-center text-md-start fw-bold ">
           <span  >Desarrollador Web</span>
@@ -18,9 +18,9 @@ export const HomePage = () => {
         <a className="btn btn-download w-50 fw-bold" role="button" href="/HV_FERNANDO.pdf" download="HV-Fernando-lopez">DESCARGAR CV</a>
       </div>
      
-       <div className="col-12 col-md-6">
+       <div className="col-12 col-sm-8 col-md-6">
       <img 
-         className="img-fluid  "
+         className="img-fluid "
            src="/creative.svg" alt="" />
        </div> 
       </div>

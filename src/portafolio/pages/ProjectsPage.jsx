@@ -28,7 +28,7 @@ export const ProjectsPage = () => {
       id: 1,
       titulo: 'App Clima',
       descripcion: 'Mantente informado del clima donde quieras. Desarrollado con:(React, redux, Bootstrap y Axios)',
-      url: './assets/proyectos/weather-app.jpg',
+      url: '/proyectos/weather-app.JPG',
       githubUrl:'https://github.com/AlvaroFernandoLopez/weather',
       link_project:'https://weather-delta-sooty.vercel.app/'
     },
@@ -37,7 +37,7 @@ export const ProjectsPage = () => {
       id: 2,
       titulo: 'App journal',
       descripcion: 'Lleva un diario de tu vida y sube las fotos que desees. Desarrollado con:(React, redux, mateial UI, firebase y claudinary)',
-      url: './assets/proyectos/journal-app.jpg',
+      url: '/proyectos/journal-app.JPG',
       githubUrl:'https://github.com/AlvaroFernandoLopez/journal',
       link_project:'https://journal-gules.vercel.app/'
     },
