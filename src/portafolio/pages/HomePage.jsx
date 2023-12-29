@@ -10,18 +10,18 @@ export const HomePage = () => {
           <span  >Desarrollador Web</span>
           <br />
 
-          Front-End Junior
+          Front-End Junior 
           <br />
           Diseño de páginas web. UX/UI
         </h1>
 
-        <a className="btn btn-download w-50 fw-bold" role="button" href="/assets/HV_FERNANDO.pdf" download="HV-Fernando-lopez">DESCARGAR CV</a>
+        <a className="btn btn-download w-50 fw-bold" role="button" href="/HV_FERNANDO.pdf" download="HV-Fernando-lopez">DESCARGAR CV</a>
       </div>
      
        <div className="col-12 col-md-6">
       <img 
          className="img-fluid  "
-           src="/assets/creative.svg" alt="" />
+           src="/creative.svg" alt="" />
        </div> 
       </div>
   
