@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Montserrat:wght@100;200;400&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+
+   /* background-color: #F3f4f2;*/
+    height: 100vh;
+    background-color: #04001e;
+
+
+ }
+
+
+
+ h1{
+    color: #EF0070;
+    background-image: linear-gradient(258.75deg,
+    rgb(67, 177, 200) 31.33%,
+    rgb(153, 137, 235) 48.42%,
+    rgb(217, 127, 209) 59.35%,
+     rgb(245, 130, 178) 65.56%);
+
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: rgba(0, 0, 0, 0) 0px 0px;
+}
+h2{
+    color: #EF0070;
+}
+ button , .btn-download{
+    background-color: #EF0070 !important;
+    color: #fff !important;
+ }
+ :root{
+    --color-primary:#473649;
+    --color-morado-s:#865864;
+    --color-gris:#9DA8A4;
+    --color-cafe:#957858;
+    --color-gris-suave:#F2E8E5;
+    --light-blue:#10FEFE;
+    --base-neutral:#DFFBFF;
+}
+
+.screem{
+    min-height: calc(100vh - 120px);
+
+}
+
+
+.acerca-de-mi{
+
+    /* background: linear-gradient(225.58deg, rgb(7, 4, 254) -14.51%, rgb(250, 5, 124) 157.11%); */
+   background-color: #1F1F3A;
+    padding: 20px;
+    color: white;
+    
+}
+h3{
+    color: var(--base-neutral);
+    letter-spacing: .1em;
+}
+
+.btn-about{
+    background-color: white !important;
+    color: #04001e !important;
+
+}
+
+/* .card{
+    border-radius: 10px;
+    background-color: #F2E8E5;
+    width: 100%;
+    box-shadow: 0 7px 20px -10px var(--color-primary);
+
+}
+
+
+.card .img-card{
+    overflow: hidden;
+
+}
+.img-card img{
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+
+}
+.card-content{
+    color: #000;
+    padding: 10px;
+
+}
+.card:hover .img-card img{
+    transform: scale(1.1);
+} */
+
+
+
+.card{
+  background-color: #1F1F3A;
+  color: var(--base-neutral);
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  min-height: 400px;
+}
+
+
+.card-text{
+  color: #fff;
+}
+.btn-card{
+  border: 1px solid white;
+  color: white;
+  border-radius: 12px;
+  background: transparent;
+  padding: 6px 32px 10px;
+  height: 40px;
+  text-decoration: none;
+  box-shadow: inset 0px -2px 0px white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+
+}
+
+.form-label{
+    color: var(--base-neutral);
+}
+
+
+
+.form-control{
+    background-color: transparent !important;
+    border-color: var(--base-neutral);
+    color: var(--base-neutral) !important;
+}
+
+input:focus{
+    background-color: transparent !important;
+    
+}
+
+.links-contacto a{
+    color: #d7cec7;
+    text-decoration: none;
+   
+}
+.links-contacto i{
+    font-size: 2em;
+    margin-right: 20px;
+  
+}
+
+.links-contacto i:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+
+.footer{
+    color: var(--base-neutral);
+}
+.img-card{
+    height: 200px;
+}
+

@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Montserrat:wght@100;200;400&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --color-primary:#473649;
+    --color-morado-s:#865864;
+    --color-gris:#9DA8A4;
+    --color-cafe:#957858;
+    --color-gris-suave:#F2E8E5;
+}
+body{
+ 
+   margin: 0;
+   font-family: "Bai Jamjuree", sans-serif;
+   background-color: #F3f4f2;
+ 
+}
+h1{
+    text-transform: uppercase;
+}
+.navbar{
+    min-height: 70px;
+
+}
+
+.navbar-nav .nav-item:hover{
+    color: #f3f4f2;
+    transition: all 0.5s ease;
+
+}
+
+.active{
+    color: #fff !important;
+}
+.screem{
+    min-height: 500px;
+    
+}
+.spacing{
+    height: 10px;
+     width: 100%;
+}
+
+h1 span{
+    background: #473649;
+    color: #fff;
+    /*width: 31.5rem;*/
+    width: 100%;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 3rem;
+    letter-spacing: 0.05em;
+    padding: 5px;
+
+
+}
+img{
+    width: 100%;
+}
+
+.btn-bg {
+    background: #473649 !important;
+    color: #F2E8E5;
+}
+.bg-navbar{
+    background-color: #473649;
+}
+
+
+.acerca-de-mi{
+    width: 100%;
+    background: #FFF;
+    padding: 20px;
+    color: var(--color-morado-s);
+    border-radius: 10px;
+    box-shadow:0 7px 30px -10px #000; ;
+    margin:auto;
+    color: var(--color-primary);
+}
+.acerca-de-mi h3{
+    color: var(--color-cafe);
+  
+}
+.card{
+    border-radius: 10px;
+    background-color: #F2E8E5;
+    width: 100%;
+    box-shadow: 0 7px 20px -10px var(--color-primary);
+    
+}
+.card .img-card{
+    overflow: hidden;
+    
+}
+.img-card img{
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+
+}
+.card-content{
+    color: #000;
+    padding: 10px;
+    
+}
+.card:hover .img-card img{
+    transform: scale(1.1);
+}
+
+.shadow-efect{
+    transition: all 0.5s;
+}
+
+.shadow-efect:hover{
+    box-shadow: -6px 6px 0 0 var(--color-primary);
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0;
+    width: 100%;
+    
+}
+.iconos i{
+    font-size: 2rem;
+    color: var(--color-gris);
+    margin-right: 10px;
+}
+.iconos i:hover{
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.footer{
+    margin-top: 2px solid #000;
+}
+
+.img-card{
+    height: 120px;
+}
