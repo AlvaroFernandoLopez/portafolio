@@ -15,7 +15,7 @@ export const HomePage = () => {
           Diseño de páginas web. UX/UI
         </h1>
 
-        <a className="btn btn-download w-50 fw-bold" role="button" href="/HV-FERNANDO.pdf" download="HV-Fernando-lopez">DESCARGAR CV</a>
+        <a className="btn btn-download w-50 fw-bold" role="button" href="/FERNANDO-HV.pdf" download="HV-Fernando-lopez">DESCARGAR CV</a>
       </div>
      
        <div className="col-12 col-sm-8 col-md-6">

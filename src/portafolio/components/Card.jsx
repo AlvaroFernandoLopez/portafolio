@@ -12,7 +12,8 @@ export const Card = ({ id, title, description,url}) => {
                     <img className="img-fluid" src={url} alt="" />
                 </div>
                 <div className="card-content">
-                    <h4>App clima</h4>
+                    <h4>App climas</h4>
+          
                     <p> Molestiae, corrupti cupiditate. nobis officia ut doloremque voluptate, iusto veritatis, aspernatur dolorum consectetur?</p>
                 </div>
 
